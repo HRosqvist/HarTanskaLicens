@@ -1,0 +1,28 @@
+{
+  "name": "hartanskalicens",
+  "version": "1.0.0",
+  "description": "Har Caroline Tanska fixat sin licens inför denna säsongen?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": ".\\node_modules\\.bin\\netlify-lambda serve src",
+    "build": ".\\node_modules\\.bin\\netlify-lambda build src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HRosqvist/HarTanskaLicens.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HRosqvist/HarTanskaLicens/issues"
+  },
+  "homepage": "https://github.com/HRosqvist/HarTanskaLicens#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "netlify-lambda": "^2.0.16",
+    "node-emoji": "^2.1.0",
+    "serverless-http": "^3.2.0"
+  }
+}
