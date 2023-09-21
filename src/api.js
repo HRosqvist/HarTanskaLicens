@@ -13,7 +13,7 @@ const router = express.Router();
 router.get("/", (req, res) => {
 	res.writeHead(200, {'content-type': 'text/html; charset=utf-8'});
   if (checkLicense()) {
-	  res.write('<h1 style="text-align:center;">Caroline Tanska har licens i år! ' + emoji.emojify(':white_check_mark:') + '</h1>')
+	  res.write('<h1 style="text-align:center;">' + emoji.emojify(':tada:') + 'Caroline Tanska har licens i år! ' + emoji.emojify(':white_check_mark:') + '</h1>')
 	  res.end();
   } else {
 	  res.write('<h1 style="text-align:center;">Caroline Tanska har inte licens i år! ' + emoji.emojify(':x:') + '</h1>')
