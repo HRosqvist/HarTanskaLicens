@@ -22,7 +22,7 @@ router.get("/", (req, res) => {
 });
 
 function checkLicense() {
-	return false;
+	return true;
 }
 
 // Use the router to handle requests to the `/.netlify/functions/api` path
